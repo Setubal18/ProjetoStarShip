@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../ProjetoCarros/Concessionaria/Carros/templates/base.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StarShip/settings.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StarShipapp/models.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/base.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/perfil_veiculo.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/veiculos_list.html" charset="UTF-8" />
+  </component>
+</project>
