@@ -1,0 +1,11 @@
+Django==2.0.6
+django-icons==0.1.0
+django-material==1.2.5
+django-materialize==1.0.1a2
+mysqlclient==1.3.12
+Pillow==5.1.0
+pytz==2018.4
+
+
+#You are using pip version 9.0.1, however version 10.0.1 is available.
+#You should consider upgrading via the 'python -m pip install --upgrade pip' command.

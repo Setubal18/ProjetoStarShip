@@ -4,7 +4,7 @@ from StarShipapp.models import *
 
 admin.site.register(Usuario)
 admin.site.register(Nave)
-admin.site.register(Corveta_Nave)
-admin.site.register(StarFight_Nave)
-admin.site.register(Cargo_Nave)
+admin.site.register(Corveta)
+admin.site.register(StarFight)
+admin.site.register(Cargo)
 

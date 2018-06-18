@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% csrf_token %}
+    <form method="post" action=".?next={{ redirect_to }}">
+        <input type="text" name="username" placeholder="Username"/>
+        <input type="password" name="password" placeholder="Password"/>
+
+        <button class="btn waves-effect waves-light" type="submit" name="login">Logar</button>
+    </form>
+
+{% endblock con0tent %}

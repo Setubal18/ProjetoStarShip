@@ -13,14 +13,16 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
-from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-from StarShipapp.views import home
+from django.contrib import admin
+from django.urls import path
 
+from StarShipapp.views import logar, listar_naves,home
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', home, name='TelaInicial'),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+                  path('admin/', admin.site.urls),
+                  path('', home, name='home'),
+                  path('/login/', logar, name='logar'),
+                  path('/listar_naves/', listar_naves, name='listar_naves'),
+              ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
